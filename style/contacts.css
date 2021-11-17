@@ -1,0 +1,122 @@
+.contacts-title {
+    margin: 0 auto 0 40px;
+    color: var(--black-color);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    margin-bottom: 26px;
+}
+
+.contacts-content{
+    background-color: var(--white-color);
+    border-radius: 15px;
+    padding: 44px;
+    display: flex;
+}
+
+.contacts-img {
+    background-image: url(../img/contacts.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: contain;
+    margin-left: 50px;
+    background-position: center;
+}
+
+.contacts-item {
+    display: flex;
+    width: 375px;
+    justify-content: space-between;
+    padding: 25px 0 23px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.contacts-item:first-child {
+    padding-top: 0;
+}
+
+.contacts-item strong {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--dark-black);
+}
+
+.contacts-item p {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--dark-black);
+    width: 61%;
+    padding-left: 5px;
+}
+
+.contacts-number {
+    width: 61%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contacts-number a {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    color: var(--orange-color);
+}
+
+.contacts-number p {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--grey-color);
+    width: 100%;
+    padding: 0 0 0 5px;
+}
+
+.contacts-btn {
+    padding: 27px 29px;
+    background: none;
+    border: 1px solid var(--orange-color);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: var(--orange-color);
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 45px;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.2s linear;
+}
+
+.contacts-btn:focus {
+    background: var(--orange-color);
+    color: var(--white-color);
+}
+
+.contacts-btn:hover {
+    background: var(--orange-color);
+    color: var(--white-color);
+}
+
+.contacts-btn:active {
+    background: var(--brown-color);
+    color: var(--white-color);
+}
+
+.contacts-link, .contacts-number-link  {
+    padding: 0 5px;
+    border: 1px solid #00000000;
+    transition: background 0.3s ease, color 0.2s linear;
+}
+
+.contacts-link:focus, .contacts-number-link:focus  {
+    color: var(--orange-color);
+    border: 1px solid var(--orange-color);
+}
+
+.contacts-link:hover, .contacts-number-link:hover{
+    color: var(--lite-orange);
+}
+
+.contacts-link:active, .contacts-number-link:active {
+    color: var(--brown-color);
+}
+
+

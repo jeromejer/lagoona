@@ -1,0 +1,89 @@
+.tour-content {
+    background: #E9E9E9;
+    border-radius: 15px;
+    padding: 38px 40px 71px;
+}
+
+.tour-title {
+    margin: 0 auto;
+    color: var(--dark-black);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+.tour-form {
+    margin-top: 19px;
+    background: var(--white-color);
+    border-radius: 15px;
+    padding: 31px 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-label {
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--dark-black);
+    display: flex;
+    flex-direction: column;
+    margin-right: 22px;
+    width: 161px;
+    padding-left: 20px;
+    border-left: 1px solid #E1E1E1;
+}
+
+.tour-label:nth-last-child(-n+2) {
+    padding-right: 30px;
+    border-right: 1px solid #E1E1E1;
+    width: 191px;
+}
+
+.tour-label:first-child {
+    padding-left: 0;
+    border-left: none;
+}
+
+
+.tour-form select, input {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 15px;
+    border: none;
+}
+
+.tour-label:nth-child(-n+2) {
+    width: 169px;
+}
+
+
+
+.tour-input {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.tour-btn {
+    background: none;
+    border: 1px solid var(--orange-color);
+    border-radius: 10px;
+    padding: 13px 30px;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--orange-color);
+    transition: background 0.3s ease, color 0.2s linear;
+}
+
+.tour-btn:focus {
+    background: var(--orange-color);
+    color: var(--white-color);
+}
+
+.tour-btn:hover {
+    background: var(--orange-color);
+    color: var(--white-color);
+}
+
+.tour-btn:active {
+    background: var(--brown-color);
+    color: var(--white-color);
+}

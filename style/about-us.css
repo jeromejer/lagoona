@@ -1,0 +1,15 @@
+.about-us-title {
+    margin: 0 auto 0 40px;
+    color: var(--black-color);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+.about-us-descr {
+    max-width: 888px;
+    font-size: 16px;
+    line-height: 200%;
+    margin-top: 11px;
+    color: var(--dark-black);
+}

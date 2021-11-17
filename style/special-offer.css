@@ -1,0 +1,101 @@
+.offer-title {
+    margin-bottom: 20px;
+    color: var(--black-color);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    padding-left: 40px;
+}
+
+.offer-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.offer-items {
+    width: 50%;
+}
+
+.section-tours-price, .section-place-price {
+    color: var(--white-color);
+    opacity: 0.8;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 auto 47px;
+}
+
+.details-link {
+    text-decoration: none;
+    color: #FFCC66;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.details-link::after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    background-image: url('../img/arrow2.svg');
+    background-repeat: no-repeat;
+}
+
+.section-place-title, .section-tours-title {
+    color: var(--white-color);
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+.section-rooms-title {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    color: var(--white-color);
+}
+
+.section-place, .section-tours, .section-rooms {
+    padding: 40px;
+    border-radius: 15px;
+    background-size: cover;
+    background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%);
+    background-color: #2A2836;
+}
+
+.section-place:first-child {
+    margin-bottom: 23px;
+}
+
+.offer-items:first-child {
+    margin-right: 23px;
+}
+
+.section-place {
+    background-image: url('../img/maldiv.png');
+    background-repeat: no-repeat;
+}
+
+.section-rooms{
+    background-image: url('../img/lux.png');
+    padding: 211px 0 40px 41px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.section-tours {
+    background-image: url('../img/crete.png');
+    background-repeat: no-repeat;
+}
+
+
+

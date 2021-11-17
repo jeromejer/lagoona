@@ -1,0 +1,79 @@
+.services-title {
+    margin: 0 auto 20px 40px;
+    color: var(--black-color);
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: normal; 
+}
+
+.services-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.services-item {
+    width: 49%;
+    list-style-type: none;
+    padding: 200px 45px 50px;
+    border-radius: 15px;
+    margin-right: 23px;
+    margin-bottom: 23px;
+}
+
+.services-item:nth-last-of-type(-n+2) {
+    margin-bottom: 0;
+}
+
+.services-item:nth-child(2n+2) {
+    margin-right: 0;
+}
+
+.services-item-title a {
+    text-decoration: none;
+    color: var(--orange-color);
+}
+
+.services-item-title {
+    background-image: url(../img/arrow2.svg);
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 200%;
+    font-weight: 500;
+    background-position: right center;
+    padding-right: 17px;
+}
+
+.services-text {
+    width: 402px;
+    font-size: 16px;
+    line-height: 200%;
+    color: var(--dark-black);
+}
+
+.vipservice, .hall-rental, .pools, .parking{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--white-color);
+}
+
+.vipservice {
+    background-image: url('../img/vipservice.png');
+}
+
+.hall-rental {
+    background-image: url('../img/hall-rental.png');
+}
+
+.pools {
+    background-image: url('../img/pools.png');
+}
+
+.parking{
+    background-image: url('../img/parking.png');
+}
+
+
+
